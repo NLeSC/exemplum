@@ -12,19 +12,15 @@ charset = utf-8
 
 # Matches multiple files with brace expansion notation
 # Set default charset
-[*.{js,py,java,r,R}]
+[*.{js,py,java,r,R,html}]
 indent_style = space
 
 # 4 space indentation
-[*.py]
+[*.{py,java,r,R}]
 indent_size = 4
 
-# Tab indentation (no size specified)
-[*.js]
-indent_size = 2
-
-# Matches the exact files either package.json or .travis.yml
-[*.{json,yml}]
+# 2 space indentation
+[*.{js,json,yml,html}]
 indent_size = 2
 
 [*.{md,Rmd}]
