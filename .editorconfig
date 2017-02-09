@@ -5,23 +5,20 @@ root = true
 
 # Unix-style newlines with a newline ending every file
 [*]
-indent_style = space
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
+# Set default charset
 charset = utf-8
 
 # Matches multiple files with brace expansion notation
-# Set default charset
-[*.{js,py,java,r,R,html}]
-indent_style = space
 
 # 4 space indentation
 [*.{py,java,r,R}]
 indent_size = 4
 
 # 2 space indentation
-[*.{js,json,yml,html}]
+[*.{js,json,yml,html,xml}]
 indent_size = 2
 
 [*.{md,Rmd}]
